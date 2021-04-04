@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+
+	<title xml:lang="ko">게시판 검색옵션 관리 애드온</title>
+	<title xml:lang="en">Addon to manage search option</title>
+	<description xml:lang="ko">게시판의 검색옵션을 관리해주는 애드온</description>
+	<description xml:lang="en">Addon to manage the search options of board module</description>
+	<version>0.2</version>
+	<date>2021-03-09</date>
+
+	<author email_address="cydemo@gmail.com" link="https://xetown.com/">
+		<name xml:lang="ko">cydemo</name>
+		<name xml:lang="en">cydemo</name>
+	</author>
+
+	<extra_vars>
+		<var name="title_content" type="select">
+			<title xml:lang="ko">제목+내용</title>
+			<options value="0">
+				<title xml:lang="ko">사용함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+		</var>
+		<var name="title" type="select">
+			<title xml:lang="ko">제목</title>
+			<options value="0">
+				<title xml:lang="ko">사용함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+		</var>
+		<var name="content" type="select">
+			<title xml:lang="ko">내용</title>
+			<options value="0">
+				<title xml:lang="ko">사용함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+		</var>
+		<var name="comment" type="select">
+			<title xml:lang="ko">댓글</title>
+			<options value="0">
+				<title xml:lang="ko">사용함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+		</var>
+		<var name="user_name" type="select">
+			<title xml:lang="ko">이름</title>
+			<options value="0">
+				<title xml:lang="ko">사용함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+		</var>
+		<var name="nick_name" type="select">
+			<title xml:lang="ko">닉네임</title>
+			<options value="0">
+				<title xml:lang="ko">사용함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+		</var>
+		<var name="user_id" type="select">
+			<title xml:lang="ko">아이디</title>
+			<options value="0">
+				<title xml:lang="ko">사용함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+		</var>
+		<var name="tag" type="select">
+			<title xml:lang="ko">태그</title>
+			<options value="0">
+				<title xml:lang="ko">사용함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+		</var>
+		<var name="regdate" type="select">
+			<title xml:lang="ko">등록일</title>
+			<options value="0">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용함</title>
+			</options>
+		</var>
+		<var name="readed_count" type="select">
+			<title xml:lang="ko">조회 수</title>
+			<options value="0">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용함</title>
+			</options>
+		</var>
+		<var name="comment_count" type="select">
+			<title xml:lang="ko">댓글 수</title>
+			<options value="0">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용함</title>
+			</options>
+		</var>
+		<var name="voted_count" type="select">
+			<title xml:lang="ko">추천 수</title>
+			<options value="0">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용함</title>
+			</options>
+		</var>
+		<var name="blamed_count" type="select">
+			<title xml:lang="ko">비추천 수</title>
+			<options value="0">
+				<title xml:lang="ko">사용 안 함(기본)</title>
+			</options>
+			<options value="1">
+				<title xml:lang="ko">사용함</title>
+			</options>
+		</var>
+	</extra_vars>
+</addon>
